@@ -8,14 +8,16 @@
 body{
     font-family: 'Geologica', sans-serif;
 /* font-family: 'Roboto', sans-serif; */
+    background-color: #F0FFFF;
 }
 nav{
-    background: #1fdf85 ;
+    background:#F0FFFF ;
     height: 80px;
     width: 100%;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.7),inset 0px 10px 15px rgba(255, 255, 255, 0.7);
 }
 label{
-    color:whitesmoke;
+    color:rgb(15, 167, 40);
     font-size: 50px;
     line-height: 80px;
     padding: 0 100px;
@@ -43,7 +45,7 @@ a.active,a:hover {
 }
 .checkbtn{
     font-size: 30px;
-    color: white;
+    color: rgb(15, 167, 40);
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -68,8 +70,8 @@ a.active,a:hover {
     ul{
         position: fixed;
         width: 100%;
-        height: 70vh;
-        background: #47c6ec;
+        height: 50vh;
+        background:rgb(15, 167, 40);
         top: 80px;
         left: 100%;
         text-align: left;
@@ -91,4 +93,3 @@ a.active,a:hover {
     #check:checked ~ ul{
         left: 75%;
     }
-}
